@@ -1,10 +1,42 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
 	background-color: #f4ebe8;
 }
 h1, p {
 	color: #353238;
+	margin-bottom: .75em;
 }
 
 #slogan{
 	font-style:italic;
+}
+section {
+	padding:4em 0;
+}
+div {
+	margin: 2em 0;
+}
+/* team name and number spacing */
+ul {
+	list-style:none;
+	width: 30em;
+}
+li {
+	overflow:hidden;
+	margin-top:1em;
+}
+li:nth-of-type(odd) span {
+	float:left;
+	text-align:right;
+}
+li:nth-of-type(even) span {
+	float:right;
+	text-align:left;
+}
+span {
+	width: 46%;
+}
+li span:last-of-type {
+	width: 8%;
+	text-align:center;
 }
