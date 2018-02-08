@@ -56,7 +56,11 @@ section{
 	padding: 4em;
 	margin: auto;
 }
-
+section div{
+	padding: 1em 0;
+	width: 60%;
+	margin: auto;
+}
 h3 {
 	color: #92140C;
 	font-family: 'Squada One', cursive;
@@ -70,7 +74,6 @@ h3 {
 }
 
 h4 {
-	padding-top: 2em;
 	padding-bottom: .5em;
 }
 
@@ -81,8 +84,13 @@ p {
 
 a{
 	text-decoration: none;
-	color: #000;
-	/*border-bottom: 1px solid #000*/
+	color: #bfb8ad;
+/*	border-bottom: 1px solid #bfb8ad;*/
+}
+
+a:hover{
+	color: #92140c;
+	border-bottom-color: #92140c;
 }
 
 /* team name and number spacing */
@@ -139,6 +147,14 @@ footer a {
 	float: right;
 	padding: 2%;
 }
+#games a {
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding: .5em;
+	text-align: center;
+	font-size: 1.25em;
+}
 #home{
 	color: #92140c;
 }
@@ -151,6 +167,7 @@ footer a {
 	display: block;
 	width: 60%;
 	margin:  auto;
+	padding: 2em 0;
 }
 #roster {
 /*	clear:both;*/
@@ -165,4 +182,8 @@ footer a {
 #roster h3{
 	color: rgba(50, 57, 59, .9);
 	border: none;
+}
+#wrapper {
+	width:90%;
+	margin: auto;
 }
