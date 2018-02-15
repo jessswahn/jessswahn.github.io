@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+	background-color: #fffcf2;
+	font-size: 16px; /*1em = 16px*/
+	font-family: 'Open Sans', sans-serif;
+	color: #080f0f;
+	position: relative;
+}
+header{
+	background: url("https://i.imgur.com/1fP6Q5Y.jpg");
+	background-position: top center;
+	background-size: cover;
+	height: 40em;
+
+}
+nav{
+	margin: 0 8em;
+	text-align: center;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	float:left;
+	width: 20%;
+	color: #080f0f;
+	padding: 1em 3em;
+	font-family: 'Squada One', cursive;
+	font-size: 1.5em;
+}
+
+nav a:hover{
+	background-color: rgba(55, 62, 64, .5);
+	color: #fffcf2;
+}
+
+h1 {
+	color: #92140c;
+	font-size: 10em;
+	font-family: 'Squada One', cursive;
+}
+
+h2 {
+	font-family: 'Squada One', cursive;
+	color: #fffcf2;
+	padding-top: 0;
+	font-size: 3em;
+}
+
+section{
+	padding: 4em;
+	margin: auto;
+}
+section div{
+	padding: 1em 0;
+	width: 60%;
+	margin: auto;
+}
+h3 {
+	color: #92140C;
+	font-family: 'Squada One', cursive;
+	font-size: 4em;
+	text-align: center;
+	padding: .5em 1em;
+	border: .2em #92140c solid;
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+
+h4 {
+	padding-bottom: .5em;
+}
+
+p {
+	width: 30em;
+	line-height: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: #bfb8ad;
+/*	border-bottom: 1px solid #bfb8ad;*/
+}
+
+a:hover{
+	color: #92140c;
+	border-bottom-color: #92140c;
+}
+
+/* team name and number spacing */
+ul {
+	list-style:none;
+	width: 30em;
+	margin:auto;
+	font-size: 1.5em;
+}
+li {
+	overflow:hidden;
+	margin-top:.5em;
+}
+li:nth-of-type(odd) span {
+	float:left;
+	text-align:right;
+}
+li:nth-of-type(even) span {
+	float:right;
+	text-align:left;
+}
+span {
+	width: 46%;
+}
+li span:last-of-type {
+	width: 8%;
+	text-align:center;
+}
+footer {
+	background-color: #373e40;
+	padding: 1em;
+	text-align: center;
+}
+footer a {
+	margin: 1em 2em;
+	display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#tourneys{
+	width: 50%;
+	padding: 2%;
+	float:left;
+}
+#games {
+	width: 50%;
+	float: right;
+	padding: 2%;
+}
+#games a {
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding: .5em;
+	text-align: center;
+	font-size: 1.25em;
+}
+#home{
+	color: #92140c;
+}
+
+#intro{
+	margin-left: 7em;
+	padding-top: 20em;
+}
+#celebrate {
+	display: block;
+	width: 60%;
+	margin:  auto;
+	padding: 2em 0;
+}
+#roster {
+/*	clear:both;*/
+	background: url("https://i.imgur.com/Wx8CfHj.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #fffcf2;
+	padding: 4em;
+	margin: auto;
+}
+#roster h3{
+	color: rgba(50, 57, 59, .9);
+	border: none;
+}
+#wrapper {
+	width:90%;
+	margin: auto;
+}
