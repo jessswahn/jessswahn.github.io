@@ -15,10 +15,11 @@ header{
 	background-position: top center;
 	background-size: cover;
 	height: 40em;
+	position: relative;
 
 }
 nav{
-	margin: 0 8em;
+	margin: auto;
 	text-align: center;
 }
 
@@ -29,9 +30,10 @@ nav a{
 	float:left;
 	width: 20%;
 	color: #080f0f;
-	padding: 1em 3em;
+	padding: .5em 2em;
 	font-family: 'Squada One', cursive;
 	font-size: 1.5em;
+	background-color:  rgba(255, 252, 242, .2);
 }
 
 nav a:hover{
@@ -56,20 +58,29 @@ section{
 	padding: 4em;
 	margin: auto;
 }
+
 section div{
 	padding: 1em 0;
 	width: 60%;
 	margin: auto;
 }
+
+section img {
+	display: block;
+	width: 60%;
+	margin:  auto;
+	padding: 2em 0;
+}
+
 h3 {
 	color: #92140C;
 	font-family: 'Squada One', cursive;
 	font-size: 4em;
 	text-align: center;
-	padding: .5em 1em;
+	padding: .5em 0;
 	border: .2em #92140c solid;
 	display: block;
-	width: 60%;
+	width: 80%;
 	margin: auto;
 }
 
@@ -139,13 +150,13 @@ footer a {
 }
 #tourneys{
 	width: 50%;
-	padding: 2%;
+	padding: 2% 2% 2% 1%;
 	float:left;
 }
 #games {
 	width: 50%;
 	float: right;
-	padding: 2%;
+	padding: 2% 1% 2% 2%;
 }
 #games a {
 	width: 60%;
@@ -160,17 +171,12 @@ footer a {
 }
 
 #intro{
-	margin-left: 7em;
-	padding-top: 20em;
+	position: absolute;
+	left:4em;
+	bottom: 1.5em;
 }
-#celebrate {
-	display: block;
-	width: 60%;
-	margin:  auto;
-	padding: 2em 0;
-}
+
 #roster {
-/*	clear:both;*/
 	background: url("https://i.imgur.com/Wx8CfHj.png");
 	background-size: cover;
 	background-position: center;
@@ -180,10 +186,14 @@ footer a {
 	margin: auto;
 }
 #roster h3{
-	color: rgba(50, 57, 59, .9);
+	color: rgba(0, 0, 0, .75);
 	border: none;
 }
 #wrapper {
-	width:90%;
+/*	width:90%;*/
 	margin: auto;
+}
+
+@media only screen and (max-width: 1145px) {
+	
 }
