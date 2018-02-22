@@ -295,16 +295,24 @@ footer a {
 		background-color: rgba(146, 20, 12, .75);
 		color: #fffcf2;
 	}
-		#icon {
-		display: block;
-		margin: 0, 1em;
-		background-color: transparent;
-		text-align: right;
+		nav a:hover{
+		background-color: rgba(146, 20, 12, .75);
+		color: #fffcf2;
+	}
+	#icon {
+	display: block;
+	background-color: transparent;
+	text-align: right;
 /*		position: absolute;
-		z-index: 10;*/
+	z-index: 10;*/
 	}
 	h1{
 		font-size: 5em;
+	}
+	h3{
+		width: 80%;
+		padding: .25em 0;
+		font-size: 3em;
 	}
 }
 
@@ -330,10 +338,10 @@ footer a {
 	section img{
 		display: none;
 	}
-/*	#roster {
+	#roster {
 		background-image: none;
 		background-color: #92140c;
-	}*/
+	}
 }
 @media only screen and (max-width: 445px) {
 	h2 {
