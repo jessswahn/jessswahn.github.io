@@ -70,7 +70,7 @@ li span:last-of-type {
 	text-align:center;
 }
 footer {
-	background-color: #92140c
+	background-color: #92140c;
 }
 
 .navlink{
@@ -82,7 +82,8 @@ footer {
 	font-size: 1.5em;
 }
 #hero{
-	background-image: ("image/HAOSheader.png")
+	background: url("jessswahn.github.io/unit_4/images/HAOSheader.png");
+	background-size: cover;
 }
 #home{
 	text-transform: uppercase;
